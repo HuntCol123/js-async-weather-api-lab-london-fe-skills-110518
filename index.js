@@ -60,7 +60,7 @@ const main = document.querySelector('aside')
 
    }
    
-   
+createChart(json);   
    
 }
 
