@@ -52,8 +52,8 @@ function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
 const aside = document.querySelector('aside')
 
-   for (let list of json) {
-     console.log(json.list.dt_txt)
+   for (let slot of json.list) {
+     console.log(slot.dt_txt)
    }
    
    
