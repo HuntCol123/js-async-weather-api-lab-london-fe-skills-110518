@@ -72,10 +72,10 @@ var ctx = document.getElementById("WeatherChart");
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: [slot.dt_txt],
+        labels: [times],
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Temperature',
+            data: [temp],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
