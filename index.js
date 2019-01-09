@@ -44,6 +44,7 @@ function fetchFiveDayForecast(city) {
   fetch(`https://api.openweathermap.org/data/2.5/forecast?APPid=${API_KEY}&q=${city}`)
   .then(resp => resp.json())
   .then(json => displayFiveDayForecast(json))
+  .then (json => createChart(json))
 }
 
 
@@ -69,6 +70,7 @@ const main = document.querySelector('aside')
 
 function createChart(json) {
   //Bonus: render temperature chart using five day forecast data and ChartJS
+  console.log(json);
 }
 
 //document.addEventListener('DOMContentLoaded', function() {
