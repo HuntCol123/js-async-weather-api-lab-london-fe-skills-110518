@@ -44,7 +44,7 @@ function fetchFiveDayForecast(city) {
   fetch(`https://api.openweathermap.org/data/2.5/forecast?APPid=${API_KEY}&q=${city}`)
   .then(resp => resp.json())
   .then(json => displayFiveDayForecast(json));
-    createChart(json);
+  createChart(json);
 
 }
 
