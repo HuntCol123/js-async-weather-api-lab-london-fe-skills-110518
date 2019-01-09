@@ -59,7 +59,7 @@ const slots = [];
     main.appendChild(h2)
 return slots
    }
-console.log(slots)   
+console.log(slots);
 createChart(json);   
 }
 
