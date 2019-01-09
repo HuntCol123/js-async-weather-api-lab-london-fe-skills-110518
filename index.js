@@ -54,7 +54,7 @@ const aside = document.querySelector('aside')
 
    for (let slot of json.list) {
      console.log(slot.dt_txt)
-     const h1 = document.createElement('h1')
+     const h2 = document.createElement('h2')
      aside.innerHTML = `<p>${slot.dt_txt}</p>`
      console.log(slot.main.temp)
      console.log(slot.main.humidity)
