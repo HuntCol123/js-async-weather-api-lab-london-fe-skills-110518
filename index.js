@@ -64,7 +64,9 @@ function createChart(json) {
    let times = [];
    for (let slot of json.list) {
   times.push(slot.dt_txt);
-}}
+}
+  console.log(times);
+}
 // var ctx = document.getElementById("WeatherChart");
 // var myChart = new Chart(ctx, {
 //     type: 'line',
