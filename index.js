@@ -50,13 +50,15 @@ function fetchFiveDayForecast(city) {
 function displayFiveDayForecast(json) {
   console.log(json);
   //render five day forecast data to the DOM using provided IDs and json from API
-const aside = document.querySelector('aside')
+const main = document.querySelector('aside')
 
    for (let slot of json.list) {
      console.log(slot.dt_txt)
      
-     aside.innerHTML = `<p>${slot.dt_txt}</p>`
     
+   const h2 = document.createElement('h2')
+    h2.innerHTML = `<p>${slot.dt_txt}</p>`
+    main.appendChild(h2)
      console.log(slot.main.temp)
      
      console.log(slot.main.humidity)
