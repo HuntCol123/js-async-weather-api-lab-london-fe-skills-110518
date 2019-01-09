@@ -57,7 +57,7 @@ const main = document.querySelector('aside')
    const h2 = document.createElement('div')
     h2.innerHTML = `<p> ${slot.dt_txt}</p> <p>${slot.main.temp}</p> <p>${slot.main.humidity}</p>`
     main.appendChild(h2)
-
+    
    }
    
 createChart(json);   
@@ -72,7 +72,7 @@ var ctx = document.getElementById("WeatherChart");
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: [`${slot.dt_txt}`],
+        labels: [slot.dt_txt],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
