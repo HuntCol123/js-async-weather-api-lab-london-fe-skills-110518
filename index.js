@@ -57,8 +57,6 @@ const main = document.querySelector('aside')
     h2.innerHTML = `<p> ${slot.dt_txt}</p> <p>${slot.main.temp}</p> <p>${slot.main.humidity}</p>`
     main.appendChild(h2);
    }
-createChart(json);
-//console.log(slot.dt_txt);
 }
 
 function createChart(json) {
