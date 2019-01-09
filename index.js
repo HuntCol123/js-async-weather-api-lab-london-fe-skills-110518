@@ -54,9 +54,8 @@ const aside = document.querySelector('aside')
 
    for (let slot of json.list) {
      console.log(slot.dt_txt)
-     const h2 = document.createElement('h2')
+     
      aside.innerHTML = `<p>${slot.dt_txt}</p>`
-      aside.appendChild(h2)
 
      console.log(slot.main.temp)
      
