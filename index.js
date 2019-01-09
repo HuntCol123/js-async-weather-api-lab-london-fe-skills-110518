@@ -57,7 +57,7 @@ const main = document.querySelector('aside')
      
     
    const h2 = document.createElement('p')
-    h2.innerHTML = `<p>${slot.dt_txt}</p><br>`
+    h2.innerHTML = `<p>${slot.dt_txt}</br></p>`
     main.appendChild(h2)
      console.log(slot.main.temp)
      
