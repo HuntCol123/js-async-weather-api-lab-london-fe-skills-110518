@@ -72,7 +72,7 @@ var ctx = document.getElementById("WeatherChart");
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: [slot.dt_txt],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
