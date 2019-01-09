@@ -53,7 +53,7 @@ function displayFiveDayForecast(json) {
 const main = document.querySelector('aside')
 const slots = [];
    for (let slot of json.list) {
-    slots.push =slot.dt_txt
+    slots.push(slot.dt_txt)
    const h2 = document.createElement('div')
     h2.innerHTML = `<p> ${slot.dt_txt}</p> <p>${slot.main.temp}</p> <p>${slot.main.humidity}</p>`
     main.appendChild(h2)
@@ -61,7 +61,7 @@ const slots = [];
    }
    
 createChart(json);   
-   
+console.log(slots);   
 }
 
 function createChart(json) {
