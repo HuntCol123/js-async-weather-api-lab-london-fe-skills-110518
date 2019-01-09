@@ -70,7 +70,7 @@ function createChart(json) {
   
 var ctx = document.getElementById("WeatherChart");
 var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
