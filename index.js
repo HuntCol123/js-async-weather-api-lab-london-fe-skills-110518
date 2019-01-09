@@ -53,7 +53,7 @@ function displayFiveDayForecast(json) {
 const aside = document.querySelector('aside')
 
    for (var dt_txt in json.list) {
-     console.log(json.list.dt_txt)
+     console.log(json.list)
    }
    
    
