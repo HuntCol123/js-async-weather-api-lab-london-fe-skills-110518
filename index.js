@@ -56,8 +56,7 @@ const aside = document.querySelector('aside')
      console.log(slot.dt_txt)
      
      aside.innerHTML = `<p>${slot.dt_txt}</p>`
-     aside.
-
+    
      console.log(slot.main.temp)
      
      console.log(slot.main.humidity)
