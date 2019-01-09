@@ -56,6 +56,7 @@ const aside = document.querySelector('aside')
      console.log(slot.dt_txt)
      
      aside.innerHTML = `<p>${slot.dt_txt}</p>`
+     as
 
      console.log(slot.main.temp)
      
