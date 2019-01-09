@@ -3,7 +3,7 @@ const API_KEY = "b0ad7012e63564d7941bfbbeba65f56f"
 function handleFormSubmit() {
   let city = document.getElementById('city').value;
   console.log(city);
-  
+  document.getElementById("fiveday").innerHTML = "";
   fetchCurrentWeather(city);
   fetchFiveDayForecast(city);
 }
