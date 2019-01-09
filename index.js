@@ -58,6 +58,8 @@ const aside = document.querySelector('aside')
      aside.innerHTML = `<p>${slot.dt_txt}</p>`
      console.log(slot.main.temp)
      console.log(slot.main.humidity)
+      aside.appendChild(h2)
+
    }
    
    
