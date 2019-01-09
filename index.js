@@ -59,7 +59,7 @@ const main = document.querySelector('aside')
 
    }
    
-   ;displayFiveDayForecast(json)
+   createChart(json);
    
    
 }
