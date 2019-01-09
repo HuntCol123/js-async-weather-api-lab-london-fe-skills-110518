@@ -61,7 +61,7 @@ const main = document.querySelector('aside')
 
 function createChart(json) {
   //Bonus: render temperature chart using five day forecast data and ChartJS
-  console.log(json);
+  console.log(json.list);
 }
 // var ctx = document.getElementById("WeatherChart");
 // var myChart = new Chart(ctx, {
