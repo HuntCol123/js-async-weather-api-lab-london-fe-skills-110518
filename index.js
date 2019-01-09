@@ -57,11 +57,11 @@ const slots = [];
    const h2 = document.createElement('div')
     h2.innerHTML = `<p> ${slot.dt_txt}</p> <p>${slot.main.temp}</p> <p>${slot.main.humidity}</p>`
     main.appendChild(h2)
-    
+    console.log(slots);   
+
    }
    
 createChart(json);   
-console.log(slots);   
 }
 
 function createChart(json) {
