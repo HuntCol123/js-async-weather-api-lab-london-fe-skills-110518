@@ -57,7 +57,7 @@ const main = document.querySelector('aside')
      
     
    const h2 = document.createElement('p')
-    h2.innerHTML = `<p>Date/Time: ${slot.dt_txt}</p> <p>Temperature: ${slot.main.temp}</p> <p>Humidity: ${slot.main.humidity}</p>`
+    h2.innerHTML = `<p><strong>Date/Time: ${slot.dt_txt}</strong></p> <p>Temperature: ${slot.main.temp}</p> <p>Humidity: ${slot.main.humidity}</p>`
     main.appendChild(h2)
      console.log(slot.main.temp)
      
