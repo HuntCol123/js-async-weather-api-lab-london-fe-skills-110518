@@ -68,8 +68,7 @@ function createChart(json) {
     temp.push(slot.main.temp);
     
 }
-console.log(times)
-console.log(temp)
+
 }
 // var ctx = document.getElementById("WeatherChart");
 // var myChart = new Chart(ctx, {
