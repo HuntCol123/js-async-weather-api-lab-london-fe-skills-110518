@@ -62,10 +62,14 @@ const main = document.querySelector('aside')
 function createChart(json) {
   //Bonus: render temperature chart using five day forecast data and ChartJS
    let times = [];
+   let temp = [];
    for (let slot of json.list) {
-  times.push(slot.dt_txt);
+    times.push(slot.dt_txt);
+    temp.push(slot.main.temp);
+    
 }
-  console.log(times);
+console.log(times)
+console.log(temp)
 }
 // var ctx = document.getElementById("WeatherChart");
 // var myChart = new Chart(ctx, {
