@@ -58,7 +58,7 @@ const main = document.querySelector('aside')
     main.appendChild(h2);
    }
 createChart(json);
-console.log(slot.dt_txt)
+//console.log(slot.dt_txt);
 }
 
 function createChart(json) {
