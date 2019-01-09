@@ -52,7 +52,6 @@ function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
 const main = document.querySelector('aside')
    for (let slot of json.list) {
-    timePeriods.push(slot.dt_txt)
    const h2 = document.createElement('div')
     h2.innerHTML = `<p> ${slot.dt_txt}</p> <p>${slot.main.temp}</p> <p>${slot.main.humidity}</p>`
     main.appendChild(h2);
